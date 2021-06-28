@@ -47,7 +47,7 @@ function NavBar() {
                 <Tab
                   label="Home"
                   onClick={() => {
-                    history.push("/Home");
+                    history.push("/");
                   }}
                 />
                 <Tab
@@ -76,7 +76,7 @@ function NavBar() {
                 color="secondary"
                 onClick={() => handleSignOut()}
               >
-                signOut
+                LogOut
               </Button>
             </>
           ) : (

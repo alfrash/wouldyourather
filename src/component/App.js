@@ -33,7 +33,7 @@ function App() {
       {id ? (
         <Switch>
           <Route
-            path="/Home"
+            path="/"
             exact
             render={(props) => <Home {...props} id={id} />}
           />
