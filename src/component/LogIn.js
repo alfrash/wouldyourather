@@ -45,7 +45,7 @@ function LogIn() {
                 button
               >
                 <ListItemAvatar>
-                  <Avatar src={"/" + `${value.avatarURL}`} />
+                  <Avatar src={`/${value.avatarURL}`} />
                 </ListItemAvatar>
                 <ListItemText id={labelId} primary={`${value.id}`} />
               </ListItem>
